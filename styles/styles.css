@@ -2,27 +2,79 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 #amari {
   margin-top: -30%;
-  margin-left: 35rem;
+  margin-left: 25rem;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  width: fit-content;
+  border: 1px solid black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-register,
+.btn-login {
+  width: 100px;
 }
 
 #count_it {
   margin-top: -30%;
-  margin-left: 30rem;
+  margin-left: 15rem;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #down_bad {
   margin-top: -30%;
-  margin-left: 25rem;
+  margin-left: 10rem;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#amari2 {
+  margin-top: -30%;
+  margin-left: 8rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#gang {
+  margin-top: -30%;
+  margin-left: 18rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
 }
 
 .carousel-item > img {
@@ -40,6 +92,15 @@ h1 {
 h1 {
   position: absolute;
   z-index: 1;
+}
+
+.view_albums {
+  font-size: 1rem;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
 }
 
 .title {
@@ -62,6 +123,45 @@ h1 {
   position: relative;
 }
 
+.registration_form {
+  flex-direction: column;
+  width: fit-content;
+}
+
+#register {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://wallpaperaccess.com/full/903777.png");
+  background-size: cover;
+  color: white;
+}
+
+#login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://static.wixstatic.com/media/ba71b6_19cac7dabefb41ab8e484559bb4feb36~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_90,usm_0.66_1.00_0.01/ba71b6_19cac7dabefb41ab8e484559bb4feb36~mv2.jpg");
+  color: white;
+}
+
+.btn-login:hover,
+.btn-register:hover {
+  background-color: black;
+  color: white;
+}
+
+.login_form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   width: 200px;
+}
+
+.p-1 {
+  width: 250px;
 }
